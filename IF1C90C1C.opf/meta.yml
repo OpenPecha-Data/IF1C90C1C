@@ -1,33 +1,64 @@
 id: IF1C90C1C
+legacy_id: P001852
+ocr_import_info:
+  bdrc_scan_id: W22393
+  source: bdrc
+  ocr_info:
+    timestamp: '2020-03-31T15:12:33'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-03-31T15:17:22+00:00'
-last_modified: '2022-06-07T15:23:15.204956+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-09-01T23:44:15.496358+00:00'
+last_modified: 2022-09-02 07:45:17.993491
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W22393
-  title: གསུང་འབུམ། སྒམ་པོ་པ
-  author: ''
+  id: http://purl.bdrc.io/resource/W22393
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: true
-  base:
-    1B54:
-      image_group_id: I01JW305
-      title: ''
-      total_pages: 816
-      order: 1
-      base_file: 1B54.txt
-    4B69:
-      image_group_id: I01JW306
-      title: ''
+  geo_restriction:
+  - CN
+  reproduction_of: http://purl.bdrc.io/resource/MW22393
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: གསུང་འབུམ། སྒམ་པོ་པ།
+  author: སྒམ་པོ་པ་བསོད་ནམས་རིན་ཆེན།
+statistics:
+  ocr_word_mean_confidence_index: 0.5326838541758094
+  ocr_word_median_confidence_index: 0.49000000953674316
+quality: null
+bases:
+  I01JW306:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I01JW306
       total_pages: 644
-      order: 2
-      base_file: 4B69.txt
-statistics: {}
-quality: {}
+      volume_number: 2
+      volume_pages_bdrc_intro: 2
+    order: 2
+    base_file: I01JW306.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.4699999988079071
+      ocr_word_mean_confidence_index: 0.5246091653785291
+    legacy_id: v002
+  I01JW305:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I01JW305
+      total_pages: 816
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I01JW305.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.5099999904632568
+      ocr_word_mean_confidence_index: 0.5412212058365486
+    legacy_id: v001
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
